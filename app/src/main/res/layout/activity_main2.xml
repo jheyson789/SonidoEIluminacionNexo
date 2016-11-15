@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.turey.sonidoeiluminacionnexo.Main2Activity"
+    android:background="@drawable/muro">
+
+    <TextView
+        android:text="CATALOGO"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:textSize="20sp"
+        android:textColor="@android:color/background_light"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="Sonido e Iluminacion Nexo®"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView6"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_light"
+        android:textSize="16sp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="460dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="12dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:id="@+id/imageButton"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true"
+                style="@style/Widget.AppCompat.ImageButton"
+                android:background="@drawable/para1" />
+
+            <TextView
+                android:text="PAQUETE BASICO"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2"
+                android:textColor="@android:color/background_light"
+                android:textSize="18sp"
+                android:textAlignment="center"
+                android:layout_marginBottom="15dp"/>
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:id="@+id/imageButton2"
+                android:scaleType="fitXY"
+                android:background="@drawable/para2" />
+
+            <TextView
+                android:text="15 AÑOS"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView3"
+                android:textColor="@android:color/background_light"
+                android:textSize="18sp"
+                android:textAlignment="center"
+                android:layout_marginBottom="15dp"/>
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:id="@+id/imageButton3"
+                android:scaleType="fitXY"
+                android:background="@drawable/para3" />
+
+            <TextView
+                android:text="PAQUETE PREMIUN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView4"
+                android:textSize="18sp"
+                android:textColor="@android:color/background_light"
+                android:textAlignment="center"
+                android:layout_marginBottom="15dp"/>
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:id="@+id/imageButton4"
+                android:background="@drawable/para4" />
+
+            <TextView
+                android:text="NUESTROS EVENTOS"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView5"
+                android:textSize="18sp"
+                android:textAlignment="center"
+                android:textColor="@android:color/background_light"
+                android:layout_marginBottom="15dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
