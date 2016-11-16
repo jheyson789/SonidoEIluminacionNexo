@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main5"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.turey.sonidoeiluminacionnexo.Main5Activity"
+    android:background="@drawable/muro">
+
+    <TextView
+        android:text="PAQUETE PREMIUN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView12"
+        android:textSize="20sp"
+        android:textColor="@android:color/background_light"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView12"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:id="@+id/imageView7"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:background="@drawable/premi" />
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:id="@+id/imageView8"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:background="@drawable/premiu" />
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:id="@+id/imageView9"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:background="@drawable/premiun" />
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <Button
+        android:text="INICIO"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/button3"
+        android:background="@android:color/transparent"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="28dp"
+        android:layout_above="@+id/button3"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:text="Precio: 1500 Bs.  \nContiene:\n4 Parlantes activos JBL , Cabina de Dj\n4 Cañones led , 1 lacer\nCamara de humo , 2 Antorchas de fuego"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView13"
+            android:layout_weight="1"
+            android:textColor="@android:color/background_light"
+            android:layout_below="@+id/horizontalScrollView"
+            android:layout_alignStart="@+id/linearLayout"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</RelativeLayout>
