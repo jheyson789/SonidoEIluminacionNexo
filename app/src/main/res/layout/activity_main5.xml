@@ -40,7 +40,7 @@
                 android:id="@+id/imageView7"
                 android:layout_weight="1"
                 android:layout_margin="10dp"
-                android:background="@drawable/premi" />
+                android:background="@drawable/premiu" />
 
             <ImageView
                 android:layout_width="300dp"
@@ -48,7 +48,7 @@
                 android:id="@+id/imageView8"
                 android:layout_weight="1"
                 android:layout_margin="10dp"
-                android:background="@drawable/premiu" />
+                android:background="@drawable/premi"/>
 
             <ImageView
                 android:layout_width="300dp"

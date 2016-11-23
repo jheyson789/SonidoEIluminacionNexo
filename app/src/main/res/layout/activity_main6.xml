@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main6"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.turey.sonidoeiluminacionnexo.Main6Activity"
+    android:background="@drawable/muro">
+
+    <TextView
+        android:text=" NUESTROS EVENTOS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView14"
+        android:textColor="@android:color/background_light"
+        android:textSize="20sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <HorizontalScrollView
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:layout_below="@+id/textView14"
+        android:layout_alignStart="@+id/horizontalScrollView3">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="220dp"
+                android:id="@+id/imageView10"
+                android:layout_weight="1"
+                android:background="@drawable/ha"
+                android:layout_margin="10dp"
+                android:layout_height="220dp" />
+
+            <ImageView
+                android:layout_width="220dp"
+                android:id="@+id/imageView11"
+                android:layout_weight="1"
+                android:background="@drawable/hall"
+                android:layout_margin="10dp"
+                android:layout_height="220dp" />
+
+            <ImageView
+                android:layout_width="220dp"
+                android:id="@+id/imageView12"
+                android:layout_weight="1"
+                android:background="@drawable/hallo"
+                android:layout_margin="10dp"
+                android:layout_height="220dp" />
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <HorizontalScrollView
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/horizontalScrollView3"
+        android:layout_marginBottom="11dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="220dp"
+                android:layout_height="220dp"
+                android:id="@+id/imageView13"
+                android:layout_weight="1"
+                android:background="@drawable/or"
+                android:layout_margin="10dp"/>
+
+            <ImageView
+                android:layout_width="220dp"
+                android:layout_height="220dp"
+                android:id="@+id/imageView14"
+                android:layout_weight="1"
+                android:background="@drawable/oru"
+                android:layout_margin="10dp"/>
+
+            <ImageView
+                android:layout_width="220dp"
+                android:id="@+id/imageView15"
+                android:layout_weight="1"
+                android:background="@drawable/oruro"
+                android:layout_margin="10dp"
+                android:layout_height="220dp" />
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <TextView
+        android:text="Sonido E Iluminacion Nexo®"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView16"
+        android:textColor="@android:color/background_light" />
+
+</RelativeLayout>

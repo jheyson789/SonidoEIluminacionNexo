@@ -8,4 +8,9 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="Desing" parent="Theme.AppCompat.Light">
+        <item name="colorButtonNormal">#303F9F</item>
+        <item name="colorControlHighlight">#03A9F4</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
 </resources>

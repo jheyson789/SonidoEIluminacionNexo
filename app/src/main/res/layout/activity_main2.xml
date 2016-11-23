@@ -35,10 +35,10 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="460dp"
+        android:layout_marginTop="12dp"
         android:layout_below="@+id/textView"
         android:layout_alignParentStart="true"
-        android:layout_marginTop="12dp">
+        android:layout_height="500dp">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -49,10 +49,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="200dp"
                 android:id="@+id/imageButton"
-                android:layout_alignParentTop="true"
-                android:layout_alignParentStart="true"
-                style="@style/Widget.AppCompat.ImageButton"
-                android:background="@drawable/para1" />
+                android:theme="@style/Desing"
+                android:src="@drawable/para1"
+                android:scaleType="fitXY" />
 
             <TextView
                 android:text="PAQUETE BASICO"
@@ -69,7 +68,8 @@
                 android:layout_height="200dp"
                 android:id="@+id/imageButton2"
                 android:scaleType="fitXY"
-                android:background="@drawable/para2" />
+                android:src="@drawable/para2"
+                android:theme="@style/Desing"/>
 
             <TextView
                 android:text="15 AÑOS"
@@ -86,7 +86,8 @@
                 android:layout_height="200dp"
                 android:id="@+id/imageButton3"
                 android:scaleType="fitXY"
-                android:background="@drawable/para3" />
+                android:src="@drawable/para3"
+                android:theme="@style/Desing"/>
 
             <TextView
                 android:text="PAQUETE PREMIUN"
@@ -102,7 +103,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="200dp"
                 android:id="@+id/imageButton4"
-                android:background="@drawable/para4" />
+                android:src="@drawable/para44"
+                android:theme="@style/Desing"
+                android:scaleType="fitXY" />
 
             <TextView
                 android:text="NUESTROS EVENTOS"
